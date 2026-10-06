@@ -7,7 +7,7 @@ const {
 } = require('../controllers/projectUpdateController');
 
 const authMiddleware = require('../middleware/Authmiddleware');
-const roleMiddleware = require('../middleware/roleMiddleware');
+const roleMiddleware = require('../middleware/RoleMiddleWare');
 
 router.post(
     '/add',

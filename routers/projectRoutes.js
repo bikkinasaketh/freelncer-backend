@@ -11,7 +11,7 @@ const {
 } = require('../controllers/projectcontroller')
 
 const authMiddleware = require('../middleware/Authmiddleware')
-const roleMiddleware = require('../middleware/roleMiddleware')
+const roleMiddleware = require('../middleware/RoleMiddleWare')
 
 // Admin: Create Project
 router.post(
