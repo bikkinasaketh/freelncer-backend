@@ -8,7 +8,7 @@ const {
   GetClientProjects,
   UpdateProjectStatus,
   DeleteProject,
-} = require('../controllers/projectController')
+} = require('../controllers/projectcontroller')
 
 const authMiddleware = require('../middleware/Authmiddleware')
 const roleMiddleware = require('../middleware/roleMiddleware')
